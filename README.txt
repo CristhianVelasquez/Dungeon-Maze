@@ -1,1 +1,1 @@
-Repositorio del proyecto Dungeon-Maze para el proyecto final de Desarrollo de Software IV
+El proyecto de nuestra empresa Vibrato Games 2011 será desarrollado en este repositorio de la cuenta de CristhianVelasquez con ambos colaboradores, como el mismo y guido121 (Luis Palacin Raraz)
