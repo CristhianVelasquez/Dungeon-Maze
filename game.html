@@ -3,14 +3,9 @@
 <head><title>Dungeon Maze :: Cath All The Keys and Get Your Freedom</title>
 <script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="js/jquery.corner.js" type="text/javascript"></script>
-<script src="js/miScript.js" type="text/javascript"></script>
+<script src="js/scriptGame.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/estilo.css"/>
-<script language="javascript" type="text/javascript">
-	$(document).ready(function(){
-		$('.character').corner();
-	});
-		
-</script>
+
 </head>
 
 <body>	
@@ -18,19 +13,23 @@
 		
 			<h1 id="comenzar">Choose a Hero</h1>
 	
-			<div id="game" class="contenido">
+			<div id="choose" class="contenido">
+				
+				<ul id="characters">
+					<li><img src="img/aragorn1.png" id="0"class="character"/></li>
+					<li><img src="img/gandalf1.png" id="1"class="character"/></li>
+					<li><img src="img/valkiria1.png" id="2"class="character"/></li>
+				</ul>
 			
-			<ul id="characters">
-				<li><img src="img/aragorn1.png" class="character"/></li>
-				<li><img src="img/gandalf1.png" class="character"/></li>
-				<li><img src="img/valkiria1.png" class="character"/></li>
-			</ul>
+				<div id="infoHero" class="info">
 			
-			<div id="infoHero" class="info">
-			
+				</div>
+				<input type="button" name="seleccionar" value="Seleccionar" id="seleccionar"/>
 			</div>
-			<input type="button" name="seleccionar" value="Seleccionar" id="seleccionar"/>
-			</div>
+			<div id="play" class="contenido">
+				<canvas id="canvas">
+				</canvas>
+			</div>		
 	</div>
 </body>
 </html>	
