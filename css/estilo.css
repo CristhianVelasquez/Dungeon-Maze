@@ -1,3 +1,63 @@
+*{
+	font-family: arial, sans-serif;
+	
+}
+
+body{
+	
+background-color:white
+}
+.container{
+ 	width:1200px;
+	background-color: #336699;
+	border-radius: 10px;
+	margin: auto;
+	padding:10px;
+ 	
+}
+
+.historia{
+	background-color:#FFCC66;
+	padding: 10px;
+	padding-right:20px;
+	padding-left:20px;
+	width: 350px;
+	border-radius: 10px;
+	margin-left:10px;
+	margin-top:10px;
+	
+	
+}
+
+.story{
+	background-color:#FFCC66;
+	padding: 10px;
+	padding-right:20px;
+	padding-left:20px;
+	width: 350px;
+	margin-left: 800px;
+	margin-top: -210px;
+	border-radius: 10px;
+
+}
+
+.imagenCentro{
+	margin-left: 450px;
+	margin-top: -500px;
+}
+
+#pelea{
+	width:300px;
+	
+}
+
+p{
+	text-align:justify;
+	color:#003366;
+}
+
+
+
 #contenedor{
 border:3px solid black;
 width:1200px;
@@ -7,6 +67,7 @@ margin:20px auto;
 
 h1{
 text-align:center;
+color:white;
 }
 #content01{
 
@@ -15,10 +76,11 @@ height:500px;
 border:3px solid black;
 }
 #game{
-
-width:100px;
+width:800px;
 height:500px;
-border:3px solid black;
+margin:0px auto;
+background-color:#EBCB3E;
+border:3px solid red;
 }
 #content02{
 
@@ -29,6 +91,37 @@ border:3px solid black;
 .clear{
 clear:both;
 }
-.contenido{
+/*.contenido{
 float:left;
+}*/
+
+#fondoJuego{
+width: 100%;
+height: 100%;
+background-color: #000;
+position: absolute;
+margin:0px;
+}/*#comenzar{
+visibility:hidden;
+}*/
+.character{
+width:160px;
+margin:20px 40px;
 }
+#characters li {
+display:inline;
+}
+.info{
+border:2px dashed black;
+}
+#infoHero{
+width:150px;
+height:150px;
+}
+
+#start{
+	
+	margin-left: 540px;
+
+}
+
